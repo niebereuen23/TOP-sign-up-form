@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div id="image-div">
+        <div id="background">
+            <img height="1200px" src="images/halie-west-unsplash.jpg" alt="green leaf plant in close up">
+        </div>
+        <div id="brand"><img src="images/j34ger-brand.png" alt=""></div>
+        <div id="caption">Photo by <a href="https://unsplash.com/@haliewestphoto">Haley West</a> on <a href="https://unsplash.com/">Unsplash</a></div>
+    </div>
+
+    <div id="content-div">
+        <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.<br>Sign up <em>now</em> to get started.</p>
+        <p>You <em>know</em> you want to.</p>
+        <p>Let's do this!</p>
+        <form id="sign-up-form" action="https://httpbin.org/post" method="post">
+            <ul>
+                <li><label for="first-name">FIRST NAME</label>
+                    <input id="first-name" type="text" name="first-name" required minlength="2"></li>
+                <li><label for="last-name">LAST NAME</label>
+                    <input id="last-name" type="text" name="last-name" required required minlength="2"></li>
+                <li><label for="email">EMAIL</label>
+                    <input id="email" type="email" name="email" required></li>
+                <li><label for="phone-number">PHONE NUMBER</label>
+                    <input id="phone-number" type="number" name="phone-number" required size="9"></li>
+                <li><label for="password">PASSWORD</label>
+                    <input id="password" type="password" name="password" required></li>
+                <li><label for="password-confirm">CONFIRM PASSWORD</label>
+                    <input id="password-confirm" type="password" required>
+                    <div id="pass-error"></div>
+                </li>
+            </ul>
+
+        </form>
+
+        <button form="sign-up-form" class="button button-create" type="submit">Create Account</button>
+        <div>Already have an account? <a href="#">Log in</a></div>
+    </div>
+</body>
+</html>
