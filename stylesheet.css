@@ -366,13 +366,15 @@
     font-style: normal;
 } */
 
-@font-face {
+/* Font-face being used separately in fonts.css (check HTML)*/
+
+/* @font-face {       
   font-family: 'Exo 2';
   font-style: normal;
   font-weight: 300;
   font-display: swap;
   src: url('./fonts/Exo_2/Exo2-Regular.woff2') format('woff2');
-}
+} */
 
 html {
     font-size: 16px;

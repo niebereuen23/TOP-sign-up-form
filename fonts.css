@@ -3,6 +3,6 @@
     font-style: normal;
     font-weight: 300;
     font-display: swap;
-    src: url('/fonts/Exo_2/Exo2-Regular.woff2') format('woff2');
+    src: url('./fonts/Exo_2/Exo2-Regular.woff2') format('woff2');
     
   }
